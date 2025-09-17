@@ -1,0 +1,47 @@
+# config/config.yaml - Fixed version with correct paths
+
+# Model Configuration
+model:
+  base_model: "Salesforce/blip-image-captioning-base"
+  checkpoint_dir: "data/checkpoints"
+  # Add the actual path to your fine-tuned model
+  finetuned_checkpoint: "data/checkpoints/final_model"  # Or wherever your model was saved
+  lora_config:
+    r: 8
+    lora_alpha: 16
+    lora_dropout: 0.1
+    target_modules: "auto"
+
+# Training Configuration
+training:
+  batch_size: 1
+  learning_rate: 5e-5
+  num_epochs: 2
+  gradient_accumulation_steps: 8
+  warmup_steps: 10
+  max_length: 77
+
+# Web Scraping Configuration
+scraping:
+  scraper_api_key: "f5cad523852ed9a2e05a43c2e5ef1084"
+  
+  target_sites:
+    - name: "amazon"
+      url: "https://www.amazon.in"
+      search_endpoint: "/s?k="
+    - name: "flipkart"
+      url: "https://www.flipkart.com"
+      search_endpoint: "/search?q="
+    - name: "myntra"
+      url: "https://www.myntra.com"
+      search_endpoint: "/search?q="
+      
+  max_results_per_site: 100
+  timeout: 50
+  use_selenium: false
+
+# Agent Configuration  
+agent:
+  max_retries: 3
+  confidence_threshold: 0.7
+  use_finetuned: true  # Add this flag
