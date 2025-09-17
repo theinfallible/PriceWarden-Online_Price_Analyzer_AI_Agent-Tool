@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ## 2. Download the Dataset
 The model is fine-tuned on the **Fashion Product Images Dataset**.
 
-Download it from [Kaggle](https://www.kaggle.com/).
+Download it from the link in archive (2) following directory structure.
 
 Place the dataset into a directory (e.g., `data/myntradataset/`) and ensure the image paths and descriptions are correctly formatted in a `.csv` file as expected by the fine-tuning script.
 
