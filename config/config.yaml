@@ -23,7 +23,7 @@ training:
 
 # Web Scraping Configuration
 scraping:
-  scraper_api_key: "f5cad523852ed9a2e05a43c2e5ef1084"
+  scraper_api_key: "Your Scraper API key goes here"
   
   target_sites:
     - name: "amazon"
