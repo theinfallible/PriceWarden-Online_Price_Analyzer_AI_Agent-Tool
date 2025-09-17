@@ -1,0 +1,28 @@
+# Core Dependencies
+streamlit
+pillow
+opencv-python
+
+# AI/ML Dependencies
+torch
+torchvision
+transformers
+peft
+datasets
+accelerate
+
+# Web Scraping
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+
+# Utilities
+pyyaml
+pandas
+numpy
+tqdm
+
+# Evaluation Metrics
+rouge-score
+nltk
