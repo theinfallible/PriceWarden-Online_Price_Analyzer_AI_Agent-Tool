@@ -36,7 +36,7 @@ Here is a one-line description for each key file and directory in the repository
 | `app.py`                                      | The main entry point for the Streamlit web application.                           |
 | `requirements.txt`                            | A list of all Python dependencies required to run the project.                    |
 | `run_finetuning.py`                           | The executable script to start the model fine-tuning process on the dataset.      |
-| `ai_logs`                                     | Contains logs of my conversations with AI assistants (like GPT) used for debugging and development. |
+| `ai_logs`                                     | Contains logs of my conversations with AI assistants (Claude Opus 4.1) used for debugging and development. Main key gists of the conversations.|
 
 ### Getting Started: Setup and Running the Agent
 
