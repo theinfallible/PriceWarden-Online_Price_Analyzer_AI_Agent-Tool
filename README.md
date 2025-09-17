@@ -1,4 +1,4 @@
-# Frugalens: AI-Powered Price Comparison Agent 
+# PriceWarden: AI-Powered Price Comparison Agent 
 
 An intelligent agent that uses a fine-tuned vision model to find the best prices for products from an image, automating the process of cross-platform price comparison.
 
