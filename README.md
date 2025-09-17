@@ -79,7 +79,7 @@ After fine-tuning is complete, update the agent to use the newly trained weights
 2. Find the line where the `PriceComparisonAgent` is initialized.  
 3. Change the parameter:
 
-##5. Launch the Streamlit App
+## 5. Launch the Streamlit App
 
 Now you are ready to run the application! Use the following command in your terminal:
 
@@ -88,7 +88,7 @@ python -m streamlit run app.py
 
 Your web browser should automatically open to the application's UI.
 
-##6. Test the Application
+## 6. Test the Application
 
 Image Search: Upload a product image and click "Search for Best Prices".
 
@@ -96,7 +96,7 @@ Text Search: Alternatively, enter a detailed product description in the text box
 
 The agent will display the generated search query and a table of the best prices found online.
 
-##Development & AI Assistance
+## Development & AI Assistance
 
 The ai_logs file is included in this repository to provide transparency into the development process.
 It contains conversations with AI assistants that were instrumental in:
