@@ -46,7 +46,65 @@ Follow these steps to set up and run the project on your local machine.
 
 First, clone the repository and install the required Python packages.
 
-```bash
+bash
 git clone [your-repository-url]
 cd [repository-name]
 pip install -r requirements.txt
+
+
+# Fashion Product Price Comparison Agent
+
+---
+
+## 2. Download the Dataset
+The model is fine-tuned on the **Fashion Product Images Dataset**.
+
+Download it from [Kaggle](https://www.kaggle.com/).
+
+Place the dataset into a directory (e.g., `data/myntradataset/`) and ensure the image paths and descriptions are correctly formatted in a `.csv` file as expected by the fine-tuning script.
+
+---
+
+## 3. Run the Fine-Tuning Script
+Execute the `run_finetuning.py` script to start training the model on the fashion dataset.  
+This will generate model checkpoints in the `data/checkpoints` directory.
+
+bash
+python run_finetuning.py
+
+## 4. Update the Agent to Use the Fine-Tuned Model
+After fine-tuning is complete, update the agent to use the newly trained weights:
+
+1. Open the `agent/core.py` file.  
+2. Find the line where the `PriceComparisonAgent` is initialized.  
+3. Change the parameter:
+
+##5. Launch the Streamlit App
+
+Now you are ready to run the application! Use the following command in your terminal:
+
+python -m streamlit run app.py
+
+
+Your web browser should automatically open to the application's UI.
+
+##6. Test the Application
+
+Image Search: Upload a product image and click "Search for Best Prices".
+
+Text Search: Alternatively, enter a detailed product description in the text box.
+
+The agent will display the generated search query and a table of the best prices found online.
+
+##Development & AI Assistance
+
+The ai_logs file is included in this repository to provide transparency into the development process.
+It contains conversations with AI assistants that were instrumental in:
+
+Debugging code
+
+Structuring the agent's logic
+
+Exploring implementation strategies
+
+
