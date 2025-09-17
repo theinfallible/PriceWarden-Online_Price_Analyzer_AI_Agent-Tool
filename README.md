@@ -46,6 +46,7 @@ Follow these steps to set up and run the project on your local machine.
 #### 1. Clone the Repository & Install Dependencies
 
 First, clone the repository and install the required Python packages.
+Remember to update scraper API key in config.yaml
 
 bash
 git clone [your-repository-url]
