@@ -4,9 +4,9 @@ An intelligent agent that uses a fine-tuned vision model to find the best prices
 
 ---
 
--   **Name**: [Your Name]
--   **University**: [Your University Name]
--   **Department**: [Your Department]
+-   **Name**: Aekampreet Singh Dhir
+-   **University**: Indian Institute of Technology Patna
+-   **Department**: Engineering Physics
 
 ### Core Features
 
