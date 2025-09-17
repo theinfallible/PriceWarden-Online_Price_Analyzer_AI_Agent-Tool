@@ -8,14 +8,14 @@ An intelligent agent that uses a fine-tuned vision model to find the best prices
 -   **University**: [Your University Name]
 -   **Department**: [Your Department]
 
-### ✨ Core Features
+### Core Features
 
 -   **Image-to-Query**: Utilizes a fine-tuned BLIP model to generate precise search queries from product images.
 -   **Multi-Platform Scraping**: Scrapes top e-commerce sites (Amazon, Flipkart, Myntra) to find product listings.
 -   **Intelligent Ranking**: Sorts results by the best price and relevance to the user's query.
 -   **Interactive UI**: A simple and clean user interface built with Streamlit.
 
-### 📂 Project Structure
+### Project Structure
 
 Here is a one-line description for each key file and directory in the repository:
 
